@@ -1,23 +1,32 @@
 {
-      "name"        : "express-autoload"
-    , "description" : "Express autoload"
-    , "version"     : "0.1.5"
-    , "author"      : "Tugdual de Kerviler <dekervit@gmail.com>"
-    , "keywords"    : ["express-autoload","mvc","express","mongodb","redis","socket-io"]
-    , "dependencies": {
-        "connect"           : "2.6.0"
-      , "connect-mongodb"   : "1.1.5"
-      , "connect-redis"     : "1.4.4"
-      , "hiredis"           : "0.1.14"
-      , "express"           : "3.0.0"
-      , "mongoose"          : "3.4.0"
-      , "redis"             : "0.8.1"
-      , "socket.io"         : "0.9.10"
-      , "socket.io-client"  : "0.9.10"
-      , "mongodb"           : "1.1.11"
-      , "step"              : "0.0.5"
-      , "debug"             : "0.7.0"
-    }
-    , "main"        : "./index.js"
-    , "engines"     : { "node": ">= 0.6.2" }
+  "name": "express-autoload",
+  "description": "Express autoload",
+  "version": "0.1.6",
+  "author": "Tugdual de Kerviler <dekervit@gmail.com>",
+  "keywords": [
+    "express-autoload",
+    "mvc",
+    "express",
+    "mongodb",
+    "redis",
+    "socket-io"
+  ],
+  "dependencies": {
+    "connect": "2.6.0",
+    "connect-mongodb": "1.1.5",
+    "connect-redis": "1.4.4",
+    "hiredis": "0.1.14",
+    "express": "3.0.0",
+    "redis": "0.8.1",
+    "socket.io": "0.9.10",
+    "socket.io-client": "0.9.10",
+    "mongodb": "1.1.11",
+    "step": "0.0.5",
+    "debug": "0.7.0",
+    "mongoose": "~3.6.8"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": ">= 0.6.2"
+  }
 }
