@@ -1,7 +1,7 @@
 {
   "name": "express-autoload",
   "description": "Express autoload",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "author": "Tugdual de Kerviler <dekervit@gmail.com>",
   "keywords": [
     "express-autoload",
@@ -18,8 +18,8 @@
     "hiredis": "0.1.14",
     "express": "3.0.0",
     "redis": "0.8.1",
-    "socket.io": "0.9.10",
-    "socket.io-client": "0.9.10",
+    "socket.io": "0.9.14",
+    "socket.io-client": "0.9.11",
     "mongodb": "1.1.11",
     "step": "0.0.5",
     "debug": "0.7.0",
