@@ -1,7 +1,7 @@
 {
   "name": "express-autoload",
   "description": "Express autoload",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "author": "Tugdual de Kerviler <dekervit@gmail.com>",
   "keywords": [
     "express-autoload",
