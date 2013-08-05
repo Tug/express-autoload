@@ -11,6 +11,10 @@
     "redis",
     "socket-io"
   ],
+  "repository" : {
+      "type" : "git",
+      "url" : "http://github.com/Tug/express-autoload.git"
+  },
   "dependencies": {
     "connect": "2.6.0",
     "connect-mongodb": "1.1.5",
