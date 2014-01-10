@@ -1,4 +1,3 @@
-
 # Express-autoload
 
 Express autoload is a set of tools to configure an Express.js application.
@@ -10,6 +9,16 @@ Create a config file, define the paths for your controllers, models and views an
 
 ## Installation
 * npm install express-autoload
+
+## Exemples
+The following projects use express-autoload:
+
+* [express-chat](https://github.com/Tug/express-chat)
+* [express-fileshare](https://github.com/Tug/express-fileshare)
+* [nochan](https://github.com/Tug/nochan)
+
+They all have a `config.js` and a `config.json`.
+
 
 ## Configuring
 Create a config.js file and edit it to set your configuration properties such as database host, port, username, password, etc.
