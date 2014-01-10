@@ -10,6 +10,9 @@ Create a config file, define the paths for your controllers, models and views an
 ## Installation
 * npm install express-autoload
 
+## Configuring
+Create a config.js file and edit it to set your global configuration properties such as database host, port, username, password, etc.
+
 ## Exemples
 The following projects use express-autoload:
 
@@ -17,11 +20,8 @@ The following projects use express-autoload:
 * [express-fileshare](https://github.com/Tug/express-fileshare)
 * [nochan](https://github.com/Tug/nochan)
 
-They all have a `config.js` and a `config.json`.
+They all have a `config.js` file.
 
-
-## Configuring
-Create a config.js file and edit it to set your configuration properties such as database host, port, username, password, etc.
 
 ## Using
 
@@ -40,5 +40,6 @@ Create a config.js file and edit it to set your configuration properties such as
                         app.express.settings.env);
         });
     });
+
 
 
