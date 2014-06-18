@@ -1,3 +1,5 @@
+Note: This project is deprecated.
+
 # Express-autoload
 
 Express autoload is a set of tools to configure an Express.js application.
